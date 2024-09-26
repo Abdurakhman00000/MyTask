@@ -1,0 +1,82 @@
+.Header {
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(234, 234, 234);
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .Logo {
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                object-fit: cover;
+                cursor: pointer;
+            }
+
+            .Logo_info {
+                h1 {
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+
+                h3 {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: rgb(157, 157, 157);
+                }
+            }
+        }
+
+        .Header_ui{
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            .Header_basket {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                p {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: rgb(121, 121, 121);
+                    cursor: pointer;
+                    user-select: none;
+                }
+            }
+            .Header_favorites {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                p {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: rgb(121, 121, 121);
+                    cursor: pointer;
+                    user-select: none;
+                }
+
+            }
+            .Header_profile {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                p {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: rgb(121, 121, 121);
+                    cursor: pointer;
+                    user-select: none;
+                }
+
+            }
+        }
+    }
+}
